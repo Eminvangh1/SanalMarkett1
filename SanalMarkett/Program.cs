@@ -69,7 +69,7 @@
                 Console.WriteLine($"{i + 1} - {urunler[i]}: {fiyatlar[i]} TL");
             }
 
-            UrunSat(urunler, fiyatlar, kategori);
+            
         }
 
         internal static void UrunSat(string[] urunler, double[] fiyatlar, string kategori)
@@ -104,7 +104,7 @@
                 Console.WriteLine("Hatalı ürün numarası!");
             }
 
-            CıkısIslemleri();
+            
         }
 
         internal static void CıkısIslemleri()
