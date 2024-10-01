@@ -27,15 +27,25 @@
                 int secim = int.Parse(Console.ReadLine());
 
                 if (secim == 1)
+                {
                     UrunGoster(bijuteriUrunler, bijuteriFiyatlar, "Bijuteri");
+                }
                 else if (secim == 2)
+                {
                     UrunGoster(gidaUrunler, gidaFiyatlar, "Gıda");
+                }
                 else if (secim == 3)
+                {
                     UrunGoster(giyimUrunler, giyimFiyatlar, "Giyim");
+                }
                 else if (secim == 4)
+                {
                     break;
+                }
                 else
+                {
                     Console.WriteLine("Hatalı seçim! Lütfen tekrar deneyin.");
+                }
             }
         }
 
